@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- Integrated with sip2-android-core library for shared JNI and native PJSIP functionality
+- Updated package structure to use org.telon.sip2 namespace
+- Replaced local SIP service implementation with core library service
+- Updated DTO classes to support Flutter Map<String, Object> instead of React Native ReadableMap
+- Migrated from Kotlin to Java for core SIP functionality
+- Updated event broadcasting to use Flutter EventChannel instead of React Native DeviceEventEmitter
+- Improved error handling with Flutter-specific error codes
+- Updated AndroidManifest.xml to reference core library service
+- Added FOREGROUND_SERVICE permission for Android 9+ compatibility
+
+### Technical Details
+- Now depends on sip2-android-core library as a project dependency
+- Uses shared JNI wrappers and native PJSIP libraries
+- Flutter-specific broadcast receiver implementation
+- Updated build configuration for Java 17 compatibility
+- Improved memory management through shared core library
+
 ## [0.0.1] - 2024-01-XX
 
 ### Added

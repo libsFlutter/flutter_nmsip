@@ -1,1 +1,6 @@
 rootProject.name = 'flutter_sip2'
+
+include ':flutter_sip2'
+include ':sip2-android-core'
+
+project(':sip2-android-core').projectDir = new File(rootProject.projectDir, '../sip2-android-core/android')
