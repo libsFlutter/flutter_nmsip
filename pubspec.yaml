@@ -1,8 +1,9 @@
-name: flutter_sip2
-description: A Flutter plugin for SIP (Session Initiation Protocol) communication using PJSIP library.
+name: flutter_nmsip
+description: A Flutter plugin for SIP (Session Initiation Protocol) communication using PJSIP library
+license: NativeMindNONC
 version: 2.0.1+101
 
-homepage: https://github.com/telon-org/flutter_sip2
+homepage: https://github.com/libsFlutter/flutter_nmsip
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
