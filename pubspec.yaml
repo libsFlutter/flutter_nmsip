@@ -1,7 +1,7 @@
 name: flutter_nmsip
 description: A Flutter plugin for SIP (Session Initiation Protocol) communication using PJSIP library
 license: NativeMindNONC
-version: 2.0.1+101
+version: 2.1.2+108
 
 homepage: https://github.com/libsFlutter/flutter_nmsip
 
