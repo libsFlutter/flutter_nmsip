@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_sip2/flutter_sip2.dart';
+import 'package:flutter_nmsip/flutter_nmsip.dart';
 
 void main() {
   group('FlutterSip2 Tests', () {
