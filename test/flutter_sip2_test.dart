@@ -29,7 +29,7 @@ void main() {
       };
 
       final account = Account.fromMap(accountData);
-      
+
       expect(account.id, 1);
       expect(account.name, 'Test User');
       expect(account.username, 'test');
@@ -65,7 +65,7 @@ void main() {
       };
 
       final call = Call.fromMap(callData);
-      
+
       expect(call.id, 1);
       expect(call.state, 'PJSIP_INV_STATE_CALLING');
       expect(call.stateText, 'Calling');
@@ -94,7 +94,7 @@ void main() {
       };
 
       final call = Call.fromMap(callData);
-      
+
       expect(call.getFormattedConnectDuration(), '01:05');
       expect(call.getFormattedTotalDuration(), '01:05');
     });
@@ -120,7 +120,7 @@ void main() {
       };
 
       final call = Call.fromMap(callData);
-      
+
       expect(call.remoteNumber, '123456');
       expect(call.remoteName, 'John Doe');
     });
